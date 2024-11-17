@@ -64,14 +64,17 @@ Simply delete `res1.pak` (or whatever you named this pak to) from the folder.
 ### __Blades, Towers, Barricades__
 - Description of all Blades, Towers, and Barricades has been updated to include all relevant information.
 - All Blades, Towers, and Barricades now show their effects before being selected and their names have been clarified. Their selection and ability icons have been updated.
+
 **Blades**
 - Holy Blades cooldown reduced from 30 to 10 seconds.
 - Thunder Blades name changed to Lightning Blades. Units affected increased from 3 to 5.
 - Venom Blades chance increased from 20% to 30% and damage per second increased from 0.2 to 0.3.
 - Confusion Blades cooldown per target reduced from 15 to 10 seconds.
 - Vanaheim Blades chance decreased from 25% to 20%, duration reduced from 4 to 3 seconds, and cooldown increased from 10 to 12 seconds.
+
 **Towers**
 - Lightning Tower targets affected increased from 3 to 5.
+
 **Barricades**
 - Upkeep removed.
 - Cost for building increased from 50 to 75 wood.
