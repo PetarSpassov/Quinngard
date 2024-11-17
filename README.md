@@ -25,7 +25,7 @@ Simply delete `res1.pak` (or whatever you named this pak to) from the folder.
 # Changes
 ## __Clan Rebalancing__
 - **Bear**
-  - Moved Harpoons to replace Eradication instead of Shiny Happy People
+  - Harpoons now replaces Eradication instead of Shiny Happy People
 - **Kraken**
   - Relic-summoned Kraken forewarning reduced from 6 to 4 months.
   - Kraken event feast duration increased from 2 to 3 months.
