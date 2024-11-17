@@ -137,7 +137,7 @@ Simply delete `res1.pak` (or whatever you named this pak to) from the folder.
   - Removed the following bonuses from appearing for Kraken:
     - Journeymen
     - Protector of the Land
-    - Osmisis
+    - Osmosis
     - Quality of Life
     - Training Field
 - **Squirrel**
