@@ -1,5 +1,5 @@
 # Quinngard
-An extensive PVE-oriented balance and QoL mod for Northgard by Shiro Games, Quinngard seeks to add quality of life and balance changes to the PVE modes of the game, especially Bifrost.
+An extensive PVE-oriented balance and QoL mod for Northgard by Shiro Games, Quinngard seeks to apply a fresh coat of paint and a fun new experience to the PVE modes of the game - Conquest and Bifrost.
 
 ## __Disclaimer__
 None of the assets used in this mod belong to me. All credit and rights go to the creators of Northgard, Shiro Games. This mod is merely a harmless modification of game files meant to be used in solo and cooperative play.
@@ -151,3 +151,6 @@ Simply delete `res1.pak` (or whatever you named this pak to) from the folder.
   - All +20% production bonuses are bundled into one bonus, so it is not as easy as saying "Don't show +20% Hunter production if you don't have the building or the tech".
 - Bear may spawn with only 2 secondary objectives instead of 3 on Niflheim in solo.
   - This is because of Bear's guaranteed fish spawn messing with the map seed, so sadly I can't do anything about it. Even adding a fourth island may not work very well, as the main island might not be able to fit the guaranteed fish and four portals.
+
+# Other Mods by Me
+- [NoMoreFog](https://github.com/PetarSpassov/NoMoreFog) - Removes intrusive fog from multiple weathers (e.g. storm, blizzard)
