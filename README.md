@@ -8,12 +8,10 @@ You can easily reach it by right-clicking the game in your Steam Library and pre
 
 NOTE: If you already have a `res1.pak`, for example by having downloaded by `No More Fog` mod, you will need to rename this one to `res2.pak`. The game reads `res.pak` files in numerical order, starting from `res.pak` -> `res1.pak` -> `res2.pak`, etc. If you have `res.pak` and `res2.pak`, the game will NOT load `res2.pak`.
 
-**Will this mod work in co-op?**
-
+### **Will this mod work in co-op?**
 Yes. You can play co-op with your friends, but you must launch the game in Peer-to-Peer, and they must also have this mod installed. If you play on servers, the mod will not be loaded.
 
-**Will this mod affect multiplayer?**
-
+### **Will this mod affect multiplayer?**
 Only if played in Peer-to-Peer, so it will not impact Ranked. Only custom games hosted by *you* in Peer-to-Peer will be affected. To avoid this, refer to the uninstallation instructions below.
 
 ## __Uninstallation__
@@ -44,7 +42,8 @@ Simply delete `res1.pak` (or whatever you named this pak to) from the folder.
   - Horse 2nd Conquest Bonus: ~~+10%~~ +20% bonus production in zones with a warchief
 
 ## __Bifrost__
-- Number of secondary objectives increased from (2,2,3,3) to (3,4,4,4)
+- Number of secondary objectives increased from (2,2,3,3) to (3,4,4,4) (for 1/2/3/4 players respectively)
+  - Niflheim number of islands increased to match
 - Secondary objectives (Pillar, Beacon, Wyvern) now offer 2 choices each, one is picked for the whole team via majority vote.
   - **IMPORTANT NOTE: DO NOT PRESS "CHOOSE" MORE THAN ONCE PER PERSON WITH 2+ PLAYERS, IT *WILL* LOCK YOUR GAME**
 - Secondary objectives minimap icon updated
@@ -77,6 +76,7 @@ Simply delete `res1.pak` (or whatever you named this pak to) from the folder.
 ### End of Year bonuses
 - End of Year bonuses per map reduced from 4 to 3.
   - *Modder note: As the number of secondary objectives has increased, and average reward quality has been drastically increased, it should be around the same power level to leave 803 instead of 804. This should make games a lot shorter and make people feel less forced to stay until 804.*
+
 **__General__**
 - Free tools are now only offered for Miners. They should appear less often (weight 4 -> 2)
 - "+20% unit production" will no longer appear for Smiths, Miners, and Brewers. It should appear more often (weight 3 -> 4)
@@ -91,6 +91,7 @@ Simply delete `res1.pak` (or whatever you named this pak to) from the folder.
 - "-60% attacks from neutral zones" will no longer appear
 - "Carved Stone" and "Offering Well" will no longer appear
 - Brewery no longer requires you to have another happiness building in order to be offered
+
 **__Clan Specific__**
 - **Stag**
   - Stag 1st Conquest Bonus no longer appears if your team has no Hall of Skalds in Bifrost
@@ -134,6 +135,8 @@ Simply delete `res1.pak` (or whatever you named this pak to) from the folder.
   - Stove will now only show up if you either have no other happiness buildings, or there is a Squirrel in the game
 
 ## __Known Issues__
+- One person pressing "Choose" more than once on Team Vote objectives will not unselect the choice and will instead lock the game.
+  - Nothing I can do about this, sadly. It has just not been coded properly on Shiro's side, which may explain why it went unused. However, I think having the resolve to only click "Choose" once makes this cool mechanic worth having.
 - Hunter-related bonuses (e.g. +20% production) may appear even if you didn't bring a Hunting Lodge or don't have the Spoils of Plenty lore. 
   - This is not an issue with the mod, you will notice the same occurs in vanilla. The reason for this is because for the Spoils of Plenty lore to work on any clan, all clans need to have Standard Lure enabled from the start, and the game factors it in even if you can't possibly build it. Submit a bug report and let's get this fixed from Shiro's side.
   - All +20% production bonuses are bundled into one bonus, so it is not as easy as saying "Don't show +20% Hunter production if you don't have the building or the tech".
