@@ -33,6 +33,7 @@ Simply delete `res1.pak` (or whatever you named this pak to) from the folder.
 - Free tools are now only offered for Miners.
 - "+20% unit production" will no longer appear for Smiths and Miners.
 - "+30% defense for unit" no longer appears for Axe Throwers, Trackers, Archers, and Foxskins.
+
 **__Clan Specific__**
 - **Eagle**
   - Changed the Conquest bonus icons to the correct ones. They already existed in the files, but were unused for some reason.
