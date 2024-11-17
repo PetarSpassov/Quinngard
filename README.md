@@ -50,7 +50,8 @@ Simply delete `res1.pak` (or whatever you named this pak to) from the folder.
 ## __Bifrost__
 - Number of secondary objectives increased from (2,2,3,3) to (3,4,4,4) (for 1/2/3/4 players respectively)
   - Niflheim number of islands increased to match
-- Secondary objectives (Pillar, Beacon, Wyvern) now offer 2 choices each, one is picked for the whole team via majority vote.
+- Secondary objectives (Pillar, Beacon, Wyvern) now offer 2 choices each, one is picked for the whole team via percentage team vote.
+  - If three people vote and the split is 66%-33%, there is a 66% chance the first bonus will be picked and a 33% chance the second bonus will be picked.
   - **IMPORTANT NOTE: DO NOT PRESS "CHOOSE" MORE THAN ONCE PER PERSON WITH 2+ PLAYERS, IT *WILL* LOCK YOUR GAME**
 - Secondary objectives minimap icon updated
 - Beacon of Light now offers several unused tower-related bonuses. The starting resource bonuses from Beacon of Light were moved to Pillar of Glory.
