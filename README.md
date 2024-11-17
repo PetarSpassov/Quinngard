@@ -22,6 +22,7 @@ Only if played in Peer-to-Peer, so it will not impact Ranked. Only custom games 
 ## __Uninstallation__
 Simply delete `res1.pak` (or whatever you named this pak to) from the folder.
 
+# Changes
 ## __Clan Rebalancing__
 - **Bear**
   - Moved Harpoons to replace Eradication instead of Shiny Happy People
