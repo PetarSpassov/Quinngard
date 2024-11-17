@@ -4,6 +4,8 @@ An extensive PVE-oriented balance and QoL mod for Northgard by Shiro Games, Quin
 ## __Disclaimer__
 None of the assets used in this mod belong to me. All credit and rights go to the creators of Northgard, Shiro Games. This mod is merely a harmless modification of game files meant to be used in solo and cooperative play.
 
+Special thanks to Manevolent, whose setup, patience, and guidance made this possible.
+
 ## __Installation__
 Download `res1.pak` and place it within your Northgard folder. For Steam, this would look something like this: `X\Steam\steamapps\common\Northgard`
 
