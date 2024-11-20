@@ -23,6 +23,9 @@ Only if played in Peer-to-Peer, so it will not impact Ranked. Only custom games 
 Simply delete `res1.pak` (or whatever you named this pak to) from the folder.
 
 # Changes
+## __Building Changes__
+- Carved Stone building cost reduced (10 -> 5 stone)
+
 ## __Clan Rebalancing__
 - **Bear**
   - Harpoons now replaces Eradication instead of Shiny Happy People
@@ -46,6 +49,8 @@ Simply delete `res1.pak` (or whatever you named this pak to) from the folder.
   - First Conquest bonus now increases the Armoured Bear's attack and defense by ~~10%~~ -> 20%
 - **Horse**
   - Horse 2nd Conquest Bonus: ~~+10%~~ +20% bonus production in zones with a warchief
+- **Stoat**
+  - Lords, Domain Lords, and War Lords are now excluded from all Military-related conquest bonuses (+atk, +def, -cost)
 
 ## __Bifrost__
 - Number of secondary objectives increased from (2,2,3,3) to (3,4,4,4) (for 1/2/3/4 players respectively)
@@ -142,7 +147,7 @@ Simply delete `res1.pak` (or whatever you named this pak to) from the folder.
     - Training Field
 - **Squirrel**
   - Economics will now only show up if there is a Squirrel in the game
-  - Stove will now only show up if you either have no other happiness buildings, or there is a Squirrel in the game
+  - Stove is now a starter building and will not show up as an end-of-year reward.
 
 ## __Known Issues__
 - One person pressing "Choose" more than once on Team Vote objectives will not unselect the choice and will instead lock the game.
