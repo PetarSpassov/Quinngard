@@ -155,8 +155,8 @@ Simply delete `res1.pak` (or whatever you named this pak to) from the folder.
 - Hunter-related bonuses (e.g. +20% production) may appear even if you didn't bring a Hunting Lodge or don't have the Spoils of Plenty lore. 
   - This is not an issue with the mod, you will notice the same occurs in vanilla. The reason for this is because for the Spoils of Plenty lore to work on any clan, all clans need to have Standard Lure enabled from the start, and the game factors it in even if you can't possibly build it. Submit a bug report and let's get this fixed from Shiro's side.
   - All +20% production bonuses are bundled into one bonus, so it is not as easy as saying "Don't show +20% Hunter production if you don't have the building or the tech".
-- Bear may spawn with only 2 secondary objectives instead of 3 on Niflheim in solo.
-  - This is because of Bear's guaranteed fish spawn messing with the map seed, so sadly I can't do anything about it. Even adding a fourth island may not work very well, as the main island might not be able to fit the guaranteed fish and four portals.
+- Bear spawns with fewer secondary objectives on Niflheim (and somewhat rarely, no guaranteed fish).
+  - This is because of Bear's guaranteed fish spawn messing with the map seed, so sadly I can't do anything about it. Even adding another island would not work, as it just won't be able to spawn the portal.
 
 # Other Mods by Me
 - [NoMoreFog](https://github.com/PetarSpassov/NoMoreFog) - Removes intrusive fog from multiple weathers (e.g. storm, blizzard)
