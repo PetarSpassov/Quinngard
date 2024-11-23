@@ -62,7 +62,7 @@ Simply delete `res1.pak` (or whatever you named this pak to) from the folder.
 - Beacon of Light now offers several unused tower-related bonuses. The starting resource bonuses from Beacon of Light were moved to Pillar of Glory.
 - The Hidden Bifrost now opens 33% faster (four months with three scouts)
 - Vanaheim:
-  - Piercing Light event replaced by Abundance (market prices cut)
+  - Piercing Light event replaced by Healing Rain (because our eyes and FPS have suffered enough)
   - Dens can now be closed (until Shiro fixes map generation)
 - Gullveig (Boss):
   - Bomb on Unit countdown increased from 8 to 12 seconds.
