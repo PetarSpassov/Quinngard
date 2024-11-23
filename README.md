@@ -53,6 +53,7 @@ Simply delete `res1.pak` (or whatever you named this pak to) from the folder.
   - Lords, Domain Lords, and War Lords are now excluded from all Military-related conquest bonuses (+atk, +def, -cost)
 
 ## __Bifrost__
+- Carved Stone and Offering Well are now starter buildings. They have been removed from the reward pool.
 - Number of secondary objectives increased from (2,2,3,3) to (3,4,4,4) (for 1/2/3/4 players respectively)
   - Niflheim number of islands increased to match
 - Secondary objectives (Pillar, Beacon, Wyvern) now offer 2 choices each, one is picked for the whole team via percentage team vote.
@@ -104,7 +105,6 @@ Simply delete `res1.pak` (or whatever you named this pak to) from the folder.
 - Fishing Cabin can now be offered even if you have other fishing buildings. It should appear more often (weight 1 -> 4)
 - All military camps should appear much less often (weight 5 -> 1)
 - "-60% attacks from neutral zones" will no longer appear
-- "Carved Stone" and "Offering Well" will no longer appear
 - Brewery no longer requires you to have another happiness building in order to be offered
 
 **__Clan Specific__**
@@ -116,38 +116,38 @@ Simply delete `res1.pak` (or whatever you named this pak to) from the folder.
   - Hall of Skalds will now appear even with no Stag in team (weight 2), and more often with Stag in team (weight 1 -> 5)
 - **Goat**
   - Goat 2nd Conquest Bonus will no longer appear if you don't have Defensive Strategy
-  - Removed Food Trade as a possible reward in Bifrost
+  - Removed "Food Trade" lore from the reward pool
 - **Raven**
-  - Removed the 1st Conquest Bonus from appearing as a Bifrost reward
+  - Removed the 1st Conquest Bonus from the reward pool
 - **Wolf**
-  - Added Spoils of War as a possible reward in Bifrost (weight 5, clan weight 20)
+  - Added "Spoils of War" lore into the reward pool (weight 5, clan weight 20)
 - **Bear**
   - Bear 2nd Conquest Bonus will no longer appear if you don't have Shieldbearer Camp
 - **Boar**
   - Boar 2nd Conquest Bonus can now appear (there was an error in the code where instead of Altar of Kings, it was looking for Altar of the Gods)
   - Boar 2nd Conquest Bonus should appear more often (weight 15 -> 40)
-  - Removed Bartering from appearing as a Bifrost reward
+  - Removed "Bartering" lore from the reward pool
+- **Dragon**
+  - Removed "Capture" lore from the reward pool
 - **Horse**
   - Horse 2nd Conquest Bonus should appear a bit less often (weight 30 -> 22)
   - Horse 1st Conquest Bonus should appear a bit more often (weight 22 -> 30)
 - **Rat**
   - Rat 1st Conquest Bonus should appear much less often (weight 15 -> 5)
-  - Healing Fire lore should appear much more often (weight 30 -> 50)
+  - "Healing Fire" lore should appear much more often (weight 30 -> 50)
 - **Lynx**
   - Lynx 1st Conquest Bonus will no longer appear if you don't have Hunting Lodge
 - **Kraken**
-  - Removed Knowledge from Beyond from appearing as a Bifrost reward
-  - Near the Sea Spirit should appear more often (weight 40 -> 60)
-  - Foresight tech Wyrd gain increased from +1 to +2, and female villager chance raised from 50% to 75%.
+  - Removed "Knowledge from Beyond" lore from the reward pool
+  - "Near the Sea Spirit" lore should appear more often (weight 40 -> 60)
+  - "Foresight" lore Wyrd gain increased from +1 to +2, and female villager chance raised from 50% to 75%.
   - Removed the following bonuses from appearing for Kraken:
-    - Journeymen
-    - Protector of the Land
-    - Osmosis
-    - Quality of Life
-    - Training Field
+    - Happiness lores (Journeymen, Protector of the Land, Osmosis, Quality of Life, Training Field)
+    - Brewery, Stove, Hall of Skalds (kingdom happiness buildings shouldn't appear for it to begin with)
 - **Squirrel**
-  - Economics will now only show up if there is a Squirrel in the game
-  - Stove is now a starter building and will not show up as an end-of-year reward.
+  - "Economics" lore will now only show up if there is a Squirrel in the game
+  - Stove is now a starter building and has been removed from the reward pool.
+  - "Rumourmongering" lore can now only appear for Squirrel. It should appear less often (weight 25 -> 15)
 
 ## __Known Issues__
 - One person pressing "Choose" more than once on Team Vote objectives will not unselect the choice and will instead lock the game.
