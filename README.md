@@ -147,7 +147,7 @@ Simply delete `res1.pak` (or whatever you named this pak to) from the folder.
 - **Squirrel**
   - "Economics" lore will now only show up if there is a Squirrel in the game
   - Stove is now a starter building and has been removed from the reward pool.
-  - "Rumourmongering" lore can now only appear for Squirrel. It should appear less often (weight 25 -> 15)
+  - "Rumor-mongering" lore can now only appear for Squirrel. It should appear less often (weight 25 -> 15)
 
 ## __Known Issues__
 - One person pressing "Choose" more than once on Team Vote objectives will not unselect the choice and will instead lock the game.
