@@ -168,5 +168,10 @@ Simply delete `res1.pak` (or whatever you named this pak to) from the folder.
 - Bear spawns with fewer secondary objectives on Niflheim (and somewhat rarely, no guaranteed fish).
   - This is because of Bear's guaranteed fish spawn messing with the map seed, so sadly I can't do anything about it. Even adding another island would not work, as it just won't be able to spawn the portal.
 
+### __Helheim__
+- **Helheim sometimes crashes around 801.** I do not know what is causing this. Please, if you encounter a crash and think you might know what caused it, do let me know. I am not a Shiro developer, so I can't look at bug reports - sending bug reports about my mod to Shiro is useless.
+- **Trained True Valkyries do not have a portrait.** This is because there is no portrait for women, but if I add one, the game starts crashing. I don't think there is anything I can do about this. :(
+- **The Nidavellir Mine shows that you can recruit more miners even though you have no gemstones left.** This is because of several aspects of this being jankily hardcoded on Shiro's side. For it to even *consume* the resource, I had to code them as military units (even though they take up no warband slot, etc.). Some limitations are just forced upon me, I don't think there is much I can do about this one. **It still works as intended and causes no crash**, so don't worry. If you try to assign a miner when you have no gemstones, the unit will simply have a brainfart next to the mine.
+
 # Other Mods by Me
 - [NoMoreFog](https://github.com/PetarSpassov/NoMoreFog) - Removes intrusive fog from multiple weathers (e.g. storm, blizzard)
