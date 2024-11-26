@@ -62,12 +62,20 @@ Simply delete `res1.pak` (or whatever you named this pak to) from the folder.
 - Secondary objectives minimap icon updated
 - Beacon of Light now offers several unused tower-related bonuses. The starting resource bonuses from Beacon of Light were moved to Pillar of Glory.
 - The Hidden Bifrost now opens 33% faster (four months with three scouts)
-- Vanaheim:
+
+### __Realms__
+- All realms have had their music tracks updated for a fresher and more unique listening experience.
+- **NEW REALM: Helheim!** Helheim is the cold and unforgiving land of the restless dead. Great power awaits those who step into this cursed land, though beware: many have entered, but none may leave...
+  - A special challenge realm where, if you want your rewards, you will need to FIGHT for them! All objectives are much harder, the map is teeming with undead foes, and they are more aggressive. Don't blink, because this realm does not let go of those who close their eyes...
+  - Four new secondary objectives, a new enemy unit, a new military unit, and two new buildings!
+  - Each secondary objective (except one) gives TWO rewards instead of one, *and* they are more powerful! Surely, all this power is worth the struggle...?
+- Vanaheim
   - Piercing Light event replaced by Healing Rain (because our eyes and FPS have suffered enough)
   - Dens can now be closed (until Shiro fixes map generation)
-- Gullveig (Boss):
-  - Bomb on Unit countdown increased from 8 to 12 seconds.
-  - Delay between explosions in collapsing circle increased from 1.75 seconds to 2.5 seconds. Damage increased from 60 to 80.
+  - Gullveig (Boss) rebalanced slightly:
+    - Bomb on Unit countdown increased from 8 to 12 seconds.
+    - Delay between explosions in collapsing circle increased from 1.75 seconds to 2.5 seconds. Damage increased from 60 to 80.
+
 ### __Blades, Towers, Barricades__
 - Description of all Blades, Towers, and Barricades has been updated to include all relevant information.
 - All Blades, Towers, and Barricades now show their effects before being selected and their names have been clarified. Their selection and ability icons have been updated.
@@ -80,6 +88,8 @@ Simply delete `res1.pak` (or whatever you named this pak to) from the folder.
 - Vanaheim Blades chance decreased from 25% to 20%, duration reduced from 4 to 3 seconds, and cooldown increased from 10 to 12 seconds.
 
 **Towers**
+- Towers now cost more to build (50/20 -> 65/30) and have higher upkeep (mod 1.5 -> 1.75), but have more HP and defense (150/15 -> 180/18).
+- Guardian Watch Towers no longer have lower upkeep.
 - Lightning Tower targets affected increased from 3 to 5.
 
 **Barricades**
