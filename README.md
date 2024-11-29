@@ -1,5 +1,5 @@
 # Quinngard
-An extensive PVE-oriented balance and QoL mod for Northgard by Shiro Games, Quinngard seeks to apply a fresh coat of paint and a fun new experience to the PVE modes of the game - Conquest and Bifrost.
+An extensive PVE-oriented balance and QoL mod for Northgard by Shiro Games, Quinngard seeks to apply a fresh coat of paint and a fun new experience to the newest PVE mode of the game - Bifrost.
 
 ## __Disclaimer__
 None of the assets used in this mod belong to me. All credit and rights go to the creators of Northgard, Shiro Games. This mod is merely a harmless modification of game files meant to be used in solo and cooperative play.
