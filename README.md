@@ -62,12 +62,20 @@ Simply delete `res1.pak` (or whatever you named this pak to) from the folder.
 - Secondary objectives minimap icon updated
 - Beacon of Light now offers several unused tower-related bonuses. The starting resource bonuses from Beacon of Light were moved to Pillar of Glory.
 - The Hidden Bifrost now opens 33% faster (four months with three scouts)
-- Vanaheim:
+
+### __Realms__
+- All realms have had their music tracks updated for a fresher and more unique listening experience.
+- **NEW REALM: Helheim!** Helheim is the cold and unforgiving land of the restless dead. Great power awaits those who step into this cursed land, though beware: many have entered, but none may leave...
+  - A special challenge realm where, if you want your rewards, you will need to FIGHT for them! All objectives are much harder, the map is teeming with undead foes, and they are more aggressive. Don't blink, because this realm does not let go of those who close their eyes...
+  - Four new secondary objectives, a new enemy unit, a new military unit, and two new buildings!
+  - Each secondary objective (except one) gives TWO rewards instead of one, *and* they are more powerful! Surely, all this power is worth the struggle...?
+- Vanaheim
   - Piercing Light event replaced by Healing Rain (because our eyes and FPS have suffered enough)
   - Dens can now be closed (until Shiro fixes map generation)
-- Gullveig (Boss):
-  - Bomb on Unit countdown increased from 8 to 12 seconds.
-  - Delay between explosions in collapsing circle increased from 1.75 seconds to 2.5 seconds. Damage increased from 60 to 80.
+  - Gullveig (Boss) rebalanced slightly:
+    - Bomb on Unit countdown increased from 8 to 12 seconds.
+    - Delay between explosions in collapsing circle increased from 1.75 seconds to 2.5 seconds. Damage increased from 60 to 80.
+
 ### __Blades, Towers, Barricades__
 - Description of all Blades, Towers, and Barricades has been updated to include all relevant information.
 - All Blades, Towers, and Barricades now show their effects before being selected and their names have been clarified. Their selection and ability icons have been updated.
@@ -80,6 +88,8 @@ Simply delete `res1.pak` (or whatever you named this pak to) from the folder.
 - Vanaheim Blades chance decreased from 25% to 20%, duration reduced from 4 to 3 seconds, and cooldown increased from 10 to 12 seconds.
 
 **Towers**
+- Towers now cost more to build (50/20 -> 65/30) and have higher upkeep (mod 1.5 -> 1.75), but have more HP and defense (150/15 -> 180/18).
+- Guardian Watch Towers no longer have lower upkeep.
 - Lightning Tower targets affected increased from 3 to 5.
 
 **Barricades**
@@ -157,6 +167,11 @@ Simply delete `res1.pak` (or whatever you named this pak to) from the folder.
   - All +20% production bonuses are bundled into one bonus, so it is not as easy as saying "Don't show +20% Hunter production if you don't have the building or the tech".
 - Bear spawns with fewer secondary objectives on Niflheim (and somewhat rarely, no guaranteed fish).
   - This is because of Bear's guaranteed fish spawn messing with the map seed, so sadly I can't do anything about it. Even adding another island would not work, as it just won't be able to spawn the portal.
+
+### __Helheim__
+- **Helheim sometimes crashes around 801.** I do not know what is causing this. Please, if you encounter a crash and think you might know what caused it, do let me know. I am not a Shiro developer, so I can't look at bug reports - sending bug reports about my mod to Shiro is useless.
+- **Trained True Valkyries do not have a portrait.** This is because there is no portrait for women, but if I add one, the game starts crashing. I don't think there is anything I can do about this. :(
+- **The Nidavellir Mine shows that you can recruit more miners even though you have no gemstones left.** This is because of several aspects of this being jankily hardcoded on Shiro's side. For it to even *consume* the resource, I had to code them as military units (even though they take up no warband slot, etc.). Some limitations are just forced upon me, I don't think there is much I can do about this one. **It still works as intended and causes no crash**, so don't worry. If you try to assign a miner when you have no gemstones, the unit will simply have a brainfart next to the mine.
 
 # Other Mods by Me
 - [NoMoreFog](https://github.com/PetarSpassov/NoMoreFog) - Removes intrusive fog from multiple weathers (e.g. storm, blizzard)
