@@ -167,18 +167,21 @@ Simply delete `res1.pak` (or whatever you named this pak to) from the folder.
   - "Rumor-mongering" lore can now only appear for Squirrel. It should appear less often (weight 25 -> 15)
 
 ## __Known Issues__
-- One person pressing "Choose" more than once on Team Vote objectives will not unselect the choice and will instead lock the game.
+- **One person pressing "Choose" more than once on Team Vote objectives will not unselect the choice and will instead lock the game.**
   - Nothing I can do about this, sadly. It has just not been coded properly on Shiro's side, which may explain why it went unused. However, I think having the resolve to only click "Choose" once makes this cool mechanic worth having.
-- Hunter-related bonuses (e.g. +20% production) may appear even if you didn't bring a Hunting Lodge or don't have the Spoils of Plenty lore. 
+- **Hunter-related bonuses (e.g. +20% production) may appear even if you didn't bring a Hunting Lodge or don't have the Spoils of Plenty lore.**
   - This is not an issue with the mod, you will notice the same occurs in vanilla. The reason for this is because for the Spoils of Plenty lore to work on any clan, all clans need to have Standard Lure enabled from the start, and the game factors it in even if you can't possibly build it. Submit a bug report and let's get this fixed from Shiro's side.
   - All +20% production bonuses are bundled into one bonus, so it is not as easy as saying "Don't show +20% Hunter production if you don't have the building or the tech".
-- Bear spawns with fewer secondary objectives on Niflheim (and somewhat rarely, no guaranteed fish).
+- **Bear spawns with fewer secondary objectives on Niflheim (and somewhat rarely, no guaranteed fish), most commonly in solo play.**
   - This is because of Bear's guaranteed fish spawn messing with the map seed, so sadly I can't do anything about it. Even adding another island would not work, as it just won't be able to spawn the portal.
+- **Custom buildings always show up for all clans outside of Bifrost.**
+  - This stuff seems almost hard-coded, I couldn't find anything about the Bifrost-specific buildings to mimic on this one. I'll investigate it eventually, but for now, just keep it in mind if you launch other modes with the mod on. (Though you don't have much reason to do that...)
 
 ### __Helheim__
-- **Helheim rarely crashes around 801.** I do not know what is causing this. Please, if you encounter a crash and think you might know what caused it, do let me know. I am not a Shiro developer, so I can't look at bug reports - sending bug reports about my mod to Shiro is useless.
-- **Trained True Valkyries do not have a portrait.** This is because there is no portrait for women, but if I add one, the game starts crashing. I don't think there is anything I can do about this. :(
-- **The Nidavellir Mine shows that you can recruit more miners even though you have no gemstones left.** This is because of several aspects of this being jankily hardcoded on Shiro's side. For it to even *consume* the resource, I had to code them as military units (even though they take up no warband slot, etc.). Some limitations are just forced upon me, I don't think there is much I can do about this one. **It still works as intended and causes no crash**, so don't worry. If you try to assign a miner when you have no gemstones, the unit will simply have a brainfart next to the mine.
+- **Trained True Valkyries do not have a portrait.**
+  - This is because there is no portrait for women, but if I add one, the game starts crashing. I don't think there is anything I can do about this. :(
+- **The Nidavellir Mine shows that you can recruit more miners even though you have no gemstones left.**
+  - This is because of several aspects of this being jankily hardcoded on Shiro's side. For it to even *consume* the resource, I had to code them as military units (even though they take up no warband slot, etc.). Some limitations are just forced upon me, I don't think there is much I can do about this one. **It still works as intended and causes no crash**, so don't worry. If you try to assign a miner when you have no gemstones, the unit will simply have a brainfart next to the mine.
 
 # Other Mods by Me
 - [NoMoreFog](https://github.com/PetarSpassov/NoMoreFog) - Removes intrusive fog from multiple weathers (e.g. storm, blizzard)
