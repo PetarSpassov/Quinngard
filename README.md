@@ -25,22 +25,22 @@ Simply delete `res1.pak` (or whatever you named this pak to) from the folder.
 # Changes
 ## __Building Changes__
 - Carved Stone building cost reduced (10 -> 5 stone)
+- Woodcutter's Lodge stone cost to upgrade reduced from 10 to 5.
 
 ## __Clan Rebalancing__
 - **Bear**
-  - Harpoons now replaces Eradication instead of Shiny Happy People
+  - Harpoons now replaces Eradication instead of Shiny Happy People.
 - **Kraken**
-  - Relic-summoned Kraken forewarning reduced from 6 to 4 months.
+  - Relic-summoned Kraken forewarning reduced from 6 to 3 months.
   - Kraken event feast duration increased from 2 to 3 months.
 - **Stoat**
-  - Mutual Effort now replaces Trading Caravan instead of Medicine
+  - Mutual Effort now replaces Trading Caravan instead of Medicine.
 
 ## __Conquest__
 **__Generic Bonuses__**
 - Free tools are now only offered for Miners.
 - "+20% unit production" will no longer appear for Smiths and Miners.
 - "+30% defense for unit" no longer appears for Axe Throwers, Trackers, Archers, and Foxskins.
-
 **__Clan Specific__**
 - **Eagle**
   - Changed the Conquest bonus icons to the correct ones. They already existed in the files, but were unused for some reason.
@@ -85,7 +85,8 @@ Simply delete `res1.pak` (or whatever you named this pak to) from the folder.
 - Thunder Blades name changed to Lightning Blades. Units affected increased from 3 to 5.
 - Venom Blades chance increased from 20% to 30% and damage per second increased from 0.2 to 0.3.
 - Confusion Blades cooldown per target reduced from 15 to 10 seconds.
-- Vanaheim Blades chance decreased from 25% to 20%, duration reduced from 4 to 3 seconds, and cooldown increased from 10 to 12 seconds.
+- Vanaheim Blades chance decreased from 25% to 20%, duration reduced from 4 to 1 second, and cooldown increased from 10 to 12 seconds.
+- Storm Blades chance decreased from 25% to 10%.
 
 **Towers**
 - Towers now cost more to build (50/20 -> 65/30) and have higher upkeep (mod 1.5 -> 1.75), but have more HP and defense (150/15 -> 180/18).
@@ -93,12 +94,13 @@ Simply delete `res1.pak` (or whatever you named this pak to) from the folder.
 - Lightning Tower targets affected increased from 3 to 5.
 
 **Barricades**
-- Upkeep removed.
-- Cost for building increased from 50 to 75 wood.
+- Barricades now build much faster and cost no upkeep.
+- Damage dealt by Barricades reduced from 15% to 10% of the enemy's max HP.
 - Damage taken by barricades when a mob walks through them reduced by 50%.
 - Lightning Barricade targets affected increased from 3 to 5.
 - Venom Barricade damage increased from 0.3 to 0.6 per second.
 - Frost Barricade duration increased (2 -> 4 seconds) and slow increased (-15% -> -30%).
+
 ### End of Year bonuses
 - End of Year bonuses per map reduced from 4 to 3.
   - *Modder note: As the number of secondary objectives has increased, and average reward quality has been drastically increased, it should be around the same power level to leave 803 instead of 804. This should make games a lot shorter and make people feel less forced to stay until 804.*
@@ -111,8 +113,8 @@ Simply delete `res1.pak` (or whatever you named this pak to) from the folder.
 - "+30% attack power for unit" should appear more often (weight 1 -> 2)
 - "+3 Warband" should appear less often (weight 3 -> 2)
 - "Relic forge time and price is reduced by 60%" should appear more often (weight 2 -> 5)
-- All food buildings should appear more often (weight 2 -> 4)
-- Fishing Cabin can now be offered even if you have other fishing buildings. It should appear more often (weight 1 -> 4)
+- All food buildings should appear more often (weight 2 -> 4) except Fishing Cabin (weight 1, unchanged)
+- Fishing Cabin can now be offered even if you have other fishing buildings.
 - All military camps should appear much less often (weight 5 -> 1)
 - "-60% attacks from neutral zones" will no longer appear
 - Brewery no longer requires you to have another happiness building in order to be offered
@@ -131,12 +133,15 @@ Simply delete `res1.pak` (or whatever you named this pak to) from the folder.
   - Removed the 1st Conquest Bonus from the reward pool
 - **Wolf**
   - Added "Spoils of War" lore into the reward pool (weight 5, clan weight 20)
+  - "Field Rations" lore reduction, er, reduced from -75% to -35%.
 - **Bear**
   - Bear 2nd Conquest Bonus will no longer appear if you don't have Shieldbearer Camp
 - **Boar**
   - Boar 2nd Conquest Bonus can now appear (there was an error in the code where instead of Altar of Kings, it was looking for Altar of the Gods)
   - Boar 2nd Conquest Bonus should appear more often (weight 15 -> 40)
   - Removed "Bartering" lore from the reward pool
+- **Snake**
+  - Signy can now scorch the boss tile.
 - **Dragon**
   - Removed "Capture" lore from the reward pool
 - **Horse**
@@ -147,6 +152,8 @@ Simply delete `res1.pak` (or whatever you named this pak to) from the folder.
   - "Healing Fire" lore should appear much more often (weight 30 -> 50)
 - **Lynx**
   - Lynx 1st Conquest Bonus will no longer appear if you don't have Hunting Lodge
+- **Ox**
+  - "Warcraft" lore Military Exp conversion reduced (lore: 0.5 -> 0.3) (fame: 0.2 -> 0.1)
 - **Kraken**
   - Removed "Knowledge from Beyond" lore from the reward pool
   - "Near the Sea Spirit" lore should appear more often (weight 40 -> 60)
@@ -169,7 +176,7 @@ Simply delete `res1.pak` (or whatever you named this pak to) from the folder.
   - This is because of Bear's guaranteed fish spawn messing with the map seed, so sadly I can't do anything about it. Even adding another island would not work, as it just won't be able to spawn the portal.
 
 ### __Helheim__
-- **Helheim sometimes crashes around 801.** I do not know what is causing this. Please, if you encounter a crash and think you might know what caused it, do let me know. I am not a Shiro developer, so I can't look at bug reports - sending bug reports about my mod to Shiro is useless.
+- **Helheim rarely crashes around 801.** I do not know what is causing this. Please, if you encounter a crash and think you might know what caused it, do let me know. I am not a Shiro developer, so I can't look at bug reports - sending bug reports about my mod to Shiro is useless.
 - **Trained True Valkyries do not have a portrait.** This is because there is no portrait for women, but if I add one, the game starts crashing. I don't think there is anything I can do about this. :(
 - **The Nidavellir Mine shows that you can recruit more miners even though you have no gemstones left.** This is because of several aspects of this being jankily hardcoded on Shiro's side. For it to even *consume* the resource, I had to code them as military units (even though they take up no warband slot, etc.). Some limitations are just forced upon me, I don't think there is much I can do about this one. **It still works as intended and causes no crash**, so don't worry. If you try to assign a miner when you have no gemstones, the unit will simply have a brainfart next to the mine.
 
