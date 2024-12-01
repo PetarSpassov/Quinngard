@@ -1,8 +1,10 @@
 # Quinngard
-An extensive PVE-oriented balance and QoL mod for Northgard by Shiro Games, Quinngard seeks to apply a fresh coat of paint and a fun new experience to the newest PVE mode of the game - Bifrost.
+An extensive PVE-oriented balance and QoL mod for Northgard by Shiro Games, Quinngard seeks to add quality of life and balance changes to the PVE modes of the game, especially Bifrost.
 
 ## __Disclaimer__
-None of the assets used in this mod belong to me. All credit and rights go to the creators of Northgard, Shiro Games. This mod is merely a harmless modification of game files meant to be used in solo and cooperative play.
+None of the assets used in this mod belong to me. All credit and rights go to the creators of Northgard, Shiro Games. This mod is merely a harmless modification of game files meant to be used in solo and cooperative PVE play.
+
+All rights to music used from outside the game belong to their respective creators. Credit for music used from outside Northgard has been given where appropriate.
 
 Special thanks to Manevolent, whose setup, patience, and guidance made this possible.
 
@@ -26,6 +28,7 @@ Simply delete `res1.pak` (or whatever you named this pak to) from the folder.
 ## __Building Changes__
 - Carved Stone building cost reduced (10 -> 5 stone)
 - Woodcutter's Lodge stone cost to upgrade reduced from 10 to 5.
+- Lumber Camp wood cost to upgrade reduced from 100 to 50.
 
 ## __Clan Rebalancing__
 - **Bear**
@@ -64,11 +67,17 @@ Simply delete `res1.pak` (or whatever you named this pak to) from the folder.
 - The Hidden Bifrost now opens 33% faster (four months with three scouts)
 
 ### __Realms__
-- All realms have had their music tracks updated for a fresher and more unique listening experience.
+- All realms have had their music tracks updated for a fresher and more unique listening experience. Music used that comes from outside Northgard:
+  - Miklagard intro - "Media Vita" from Manor Lords
+  - Muspelheim - "Mjolnir" by Alexander Nakarada
+  - Nidavellir - "King Gylfi's Settlement OST" from Titan Quest Ragnarök
 - **NEW REALM: Helheim!** Helheim is the cold and unforgiving land of the restless dead. Great power awaits those who step into this cursed land, though beware: many have entered, but none may leave...
   - A special challenge realm where, if you want your rewards, you will need to FIGHT for them! All objectives are much harder, the map is teeming with undead foes, and they are more aggressive. Don't blink, because this realm does not let go of those who close their eyes...
   - Four new secondary objectives, a new enemy unit, a new military unit, and two new buildings!
   - Each secondary objective (except one) gives TWO rewards instead of one, *and* they are more powerful! Surely, all this power is worth the struggle...?
+- **NEW REALM: Miklagard!** Miklagard, formerly a city of great riches, has fallen victim to the assaults from the gods. What law there once was has been replaced by pillagers and thieves.
+  - The map is full of beaches, where most resources are concentrated. Befriend the Marmennill for a choice of unique new buildings which will allow you to commune with them in the future for great riches or knowledge!
+  - Money is a dominant force here. Mine the gold deposits and use the extra cash to purchase your knowledge! Beware, though, mercenaries will come after you and your riches...
 - Vanaheim
   - Piercing Light event replaced by Healing Rain (because our eyes and FPS have suffered enough)
   - Dens can now be closed (until Shiro fixes map generation)
@@ -113,7 +122,7 @@ Simply delete `res1.pak` (or whatever you named this pak to) from the folder.
 - "+30% attack power for unit" should appear more often (weight 1 -> 2)
 - "+3 Warband" should appear less often (weight 3 -> 2)
 - "Relic forge time and price is reduced by 60%" should appear more often (weight 2 -> 5)
-- All food buildings should appear more often (weight 2 -> 4) except Fishing Cabin (weight 1, unchanged)
+- All food buildings should appear more often (weight 2 -> 4) except Fishing Cabin (weight 1, unchanged).
 - Fishing Cabin can now be offered even if you have other fishing buildings.
 - All military camps should appear much less often (weight 5 -> 1)
 - "-60% attacks from neutral zones" will no longer appear
@@ -140,6 +149,7 @@ Simply delete `res1.pak` (or whatever you named this pak to) from the folder.
   - Boar 2nd Conquest Bonus can now appear (there was an error in the code where instead of Altar of Kings, it was looking for Altar of the Gods)
   - Boar 2nd Conquest Bonus should appear more often (weight 15 -> 40)
   - Removed "Bartering" lore from the reward pool
+  - Mender's Hut now produces Faith for Kingdoms. (Formerly: Nothing)
 - **Snake**
   - Signy can now scorch the boss tile.
 - **Dragon**
@@ -182,6 +192,11 @@ Simply delete `res1.pak` (or whatever you named this pak to) from the folder.
   - This is because there is no portrait for women, but if I add one, the game starts crashing. I don't think there is anything I can do about this. :(
 - **The Nidavellir Mine shows that you can recruit more miners even though you have no gemstones left.**
   - This is because of several aspects of this being jankily hardcoded on Shiro's side. For it to even *consume* the resource, I had to code them as military units (even though they take up no warband slot, etc.). Some limitations are just forced upon me, I don't think there is much I can do about this one. **It still works as intended and causes no crash**, so don't worry. If you try to assign a miner when you have no gemstones, the unit will simply have a brainfart next to the mine.
+
+### __Miklagard__
+- **You can't use Shipyards and Harbours to trade with Marmennill.**
+- **Marmennill Cove shows up on land and their name is NULL, unlike in the Conquest mission where they appear.**
+  - A lot of rules related to the Marmennill - including how their cove changes terrain, how trade with them works, and how their names are assigned - seems to come from the Conquest rule that spawns them in to begin with. Sadly, this rule crashes Bifrost. On the bright side, you can befriend them with scouts with no issue, and their 30 relation benefit (+20% production on shores) works as expected.
 
 # Other Mods by Me
 - [NoMoreFog](https://github.com/PetarSpassov/NoMoreFog) - Removes intrusive fog from multiple weathers (e.g. storm, blizzard)
