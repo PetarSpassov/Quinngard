@@ -19,7 +19,7 @@ NOTE: If you already have a `res1.pak`, you will need to rename this one to `res
 Yes. You can play co-op with your friends, but you must launch the game in Peer-to-Peer, and they must also have this mod installed. If you play on servers, the mod will not be loaded.
 
 ### **Will this mod affect multiplayer?**
-Only if played in Peer-to-Peer, so it will not impact Ranked. Only custom games hosted by *you* in Peer-to-Peer will be affected. To avoid this, refer to the uninstallation instructions below.
+This mod DOES affect multiplayer, and using it in multiplayer is a BANNABLE OFFENSE. I take NO responsibility for any consequences of actions you take with this mod against other players. This mod is made specifically for consentual use between players and for cooperative play and has NO place in multiplayer (especially ranked).
 
 ## __Uninstallation__
 Simply delete `res1.pak` (or whatever you named this pak to) from the folder.
