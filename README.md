@@ -25,19 +25,6 @@ This mod should not affect PVP. However, using this or any other mod with malici
 Simply delete `res1.pak` (or whatever you named this pak to) from the folder.
 
 # Changes
-## __Building Changes__
-- Carved Stone building cost reduced (10 -> 5 stone)
-- Woodcutter's Lodge stone cost to upgrade reduced from 10 to 5.
-- Lumber Camp wood cost to upgrade reduced from 100 to 50.
-
-## __Clan Rebalancing__
-- **Bear**
-  - Harpoons now replaces Eradication instead of Shiny Happy People.
-- **Kraken**
-  - Relic-summoned Kraken forewarning reduced from 6 to 3 months.
-  - Kraken event feast duration increased from 2 to 3 months.
-- **Stoat**
-  - Mutual Effort now replaces Trading Caravan instead of Medicine.
 
 ## __Conquest__
 **__Generic Bonuses__**
@@ -65,6 +52,11 @@ Simply delete `res1.pak` (or whatever you named this pak to) from the folder.
 - Secondary objectives minimap icon updated
 - Beacon of Light now offers several unused tower-related bonuses. The starting resource bonuses from Beacon of Light were moved to Pillar of Glory.
 - The Hidden Bifrost now opens 33% faster (four months with three scouts)
+
+### __Building Changes__
+- Carved Stone building cost reduced from 10 to 5 stone.
+- Woodcutter's Lodge stone cost to upgrade reduced from 10 to 5.
+- Lumber Camp wood cost to upgrade reduced from 100 to 50.
 
 ### __Realms__
 - All realms have had their music tracks updated for a fresher and more unique listening experience. Music used that comes from outside Northgard:
