@@ -2,7 +2,7 @@
 An extensive PVE-oriented balance and QoL mod for Northgard by Shiro Games, Quinngard seeks to add quality of life and balance changes to the PVE modes of the game, especially Bifrost.
 
 ## __Disclaimer__
-None of the assets used in this mod belong to me. All credit and rights go to the creators of Northgard, Shiro Games. This mod is merely a harmless modification of game files meant to be used in solo and cooperative PVE play.
+None of the assets used in this mod belong to me. All credit and rights go to the creators of Northgard, Shiro Games. This mod is merely a harmless modification of game files meant to be used in solo and cooperative PVE play. This mod is not officially endorsed by Shiro Games and is my own labour of love for the game.
 
 All rights to music used from outside the game belong to their respective creators. Credit for music used from outside Northgard has been given where appropriate.
 
@@ -18,8 +18,8 @@ NOTE: If you already have a `res1.pak`, you will need to rename this one to `res
 ### **Will this mod work in co-op?**
 Yes. You can play co-op with your friends, but you must launch the game in Peer-to-Peer, and they must also have this mod installed. If you play on servers, the mod will not be loaded.
 
-### **Will this mod affect multiplayer?**
-This mod DOES affect multiplayer, and using it in multiplayer is a BANNABLE OFFENSE. I take NO responsibility for any consequences of actions you take with this mod against other players. This mod is made specifically for consentual use between players and for cooperative play and has NO place in multiplayer (especially ranked).
+### **Will this mod affect PVP?**
+This mod should not affect PVP. However, using this or any other mod with malicious intent to gain an unfair advantage over other players is considered a BANNABLE OFFENSE. Please note that any consequences following abuse of this mod or any other mod will be the user's responsibility and not mine.
 
 ## __Uninstallation__
 Simply delete `res1.pak` (or whatever you named this pak to) from the folder.
