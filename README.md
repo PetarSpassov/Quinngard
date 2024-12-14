@@ -1,19 +1,12 @@
 # Quinngard
-An extensive PVE-oriented balance and QoL mod for Northgard by Shiro Games, Quinngard seeks to add quality of life and balance changes to the PVE modes of the game, especially Bifrost.
+An extensive PVE-oriented balance and QoL mod for Northgard by Shiro Games, Quinngard seeks to add quality of life and balance changes to the Bifrost game-mode. Expect faster maps, more impactful bonuses, additional realms and secondary objectives, and much, much more!
 
 ## __Disclaimer__
-None of the assets used in this mod belong to me. All credit and rights go to the creators of Northgard, Shiro Games. This mod is merely a harmless modification of game files meant to be used in solo and cooperative PVE play. This mod is not officially endorsed by Shiro Games and is my own labour of love for the game.
+None of the assets used in this mod belong to me. All credit and rights go to the creators of Northgard, Shiro Games. This mod is merely a harmless modification of game files meant to be used in solo and cooperative PVE play.
 
 All rights to music used from outside the game belong to their respective creators. Credit for music used from outside Northgard has been given where appropriate.
 
 Special thanks to Manevolent, whose setup, patience, and guidance made this possible.
-
-## __Installation__
-Download `res1.pak` and place it within your Northgard folder. For Steam, this would look something like this: `X\Steam\steamapps\common\Northgard`
-
-You can easily reach it by right-clicking the game in your Steam Library and pressing `Manage -> Browse local files`. You should now have `res.pak` and `res1.pak`.
-
-NOTE: If you already have a `res1.pak`, you will need to rename this one to `res2.pak`. The game reads `res.pak` files in numerical order, starting from `res.pak` -> `res1.pak` -> `res2.pak`, etc. If you have `res.pak` and `res2.pak`, the game will NOT load `res2.pak`.
 
 ### **Will this mod work in co-op?**
 Yes. You can play co-op with your friends, but you must launch the game in Peer-to-Peer, and they must also have this mod installed. If you play on servers, the mod will not be loaded.
@@ -21,26 +14,20 @@ Yes. You can play co-op with your friends, but you must launch the game in Peer-
 ### **Will this mod affect PVP?**
 This mod should not affect PVP. However, using this or any other mod with malicious intent to gain an unfair advantage over other players is considered a BANNABLE OFFENSE. Please note that any consequences following abuse of this mod or any other mod will be the user's responsibility and not mine.
 
+## __Installation__
+Download `res1.pak` and place it within your Northgard folder. For Steam, this would look something like this: `X\Steam\steamapps\common\Northgard`
+
+You can easily reach it by right-clicking the game in your Steam Library and pressing `Manage -> Browse local files`. You should now have `res.client.pak` and `res.client1.pak`.
+
+NOTE: If you already have a `res.client1.pak`, you will need to rename this one to `res.client2.pak`. The game reads `res.client.pak` files in numerical order, starting from `res.client.pak` -> `res.client1.pak` -> `res.client2.pak`, etc. If you have `res.client.pak` and `res.client2.pak`, the game will NOT load `res.client2.pak`.
+
 ## __Uninstallation__
-Simply delete `res1.pak` (or whatever you named this pak to) from the folder.
+Simply delete `res.client1.pak` (or whatever you named this pak) from the folder to remove the mod.
 
 # Changes
 
 ## __Conquest__
-**__Generic Bonuses__**
-- Free tools are now only offered for Miners.
-- "+20% unit production" will no longer appear for Smiths and Miners.
-- "+30% defense for unit" no longer appears for Axe Throwers, Trackers, Archers, and Foxskins.
-**__Clan Specific__**
-- **Eagle**
-  - Changed the Conquest bonus icons to the correct ones. They already existed in the files, but were unused for some reason.
-  - Glacial Winds now displays the slow amount in its tooltip.
-- **Bear**
-  - First Conquest bonus now increases the Armoured Bear's attack and defense by ~~10%~~ -> 20%
-- **Horse**
-  - Horse 2nd Conquest Bonus: ~~+10%~~ +20% bonus production in zones with a warchief
-- **Stoat**
-  - Lords, Domain Lords, and War Lords are now excluded from all Military-related conquest bonuses (+atk, +def, -cost)
+Unfortunately, Conquest bonuses and maps have been sacrificed to make this mod in order to vastly improve Bifrost with custom realms. While I have not specifically broken Conquest, some of the rules on a few of its missions have been tweaked for their use in custom Bifrost realms, and thus the game may be unbalanced or even buggy. PLEASE DO NOT PLAY CONQUEST WITH THIS MOD!
 
 ## __Bifrost__
 - Carved Stone and Offering Well are now starter buildings. They have been removed from the reward pool.
@@ -136,6 +123,7 @@ Simply delete `res1.pak` (or whatever you named this pak to) from the folder.
   - Added "Spoils of War" lore into the reward pool (weight 5, clan weight 20)
   - "Field Rations" lore reduction, er, reduced from -75% to -35%.
 - **Bear**
+  - First Conquest bonus now increases the Armoured Bear's attack and defense by ~~10%~~ -> 20%
   - Bear 2nd Conquest Bonus will no longer appear if you don't have Shieldbearer Camp
 - **Boar**
   - Boar 2nd Conquest Bonus can now appear (there was an error in the code where instead of Altar of Kings, it was looking for Altar of the Gods)
@@ -147,8 +135,12 @@ Simply delete `res1.pak` (or whatever you named this pak to) from the folder.
 - **Dragon**
   - Removed "Capture" lore from the reward pool
 - **Horse**
-  - Horse 2nd Conquest Bonus should appear a bit less often (weight 30 -> 22)
   - Horse 1st Conquest Bonus should appear a bit more often (weight 22 -> 30)
+  - Horse 2nd Conquest Bonus should appear a bit less often (weight 30 -> 22)
+  - Horse 2nd Conquest Bonus: ~~+10%~~ +20% bonus production in zones with a warchief
+- **Eagle**
+  - Changed the Conquest bonus icons to the correct ones. They already existed in the files, but were unused for some reason.
+  - Glacial Winds now displays the slow amount in its tooltip.
 - **Rat**
   - Rat 1st Conquest Bonus should appear much less often (weight 15 -> 5)
   - "Healing Fire" lore should appear much more often (weight 30 -> 50)
@@ -167,6 +159,8 @@ Simply delete `res1.pak` (or whatever you named this pak to) from the folder.
   - "Economics" lore will now only show up if there is a Squirrel in the game
   - Stove is now a starter building and has been removed from the reward pool.
   - "Rumor-mongering" lore can now only appear for Squirrel. It should appear less often (weight 25 -> 15)
+- **Stoat**
+  - Lords, Domain Lords, and War Lords are now excluded from all Military-related conquest bonuses (+atk, +def, -cost)
 
 ## __Known Issues__
 - **One person pressing "Choose" more than once on Team Vote objectives will not unselect the choice and will instead lock the game.**
@@ -178,6 +172,8 @@ Simply delete `res1.pak` (or whatever you named this pak to) from the folder.
   - This is because of Bear's guaranteed fish spawn messing with the map seed, so sadly I can't do anything about it. Even adding another island would not work, as it just won't be able to spawn the portal.
 - **Custom buildings always show up for all clans outside of Bifrost.**
   - This stuff seems almost hard-coded, I couldn't find anything about the Bifrost-specific buildings to mimic on this one. I'll investigate it eventually, but for now, just keep it in mind if you launch other modes with the mod on. (Though you don't have much reason to do that...)
+- **The Wyvern secondary objective does not appear on custom realms, as it has been manually disabled.**
+  - Wyverns are hardcoded for each realm separately. This means I can't add new ones. Trying to do so would, in the best case scenario, break the Wyvern and cause it to 1-shot all of your units with infinite damage. Don't ask me what the worst case is.
 
 ### __Helheim__
 - **Trained True Valkyries do not have a portrait.**
